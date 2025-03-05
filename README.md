@@ -27,9 +27,13 @@ Proviene de la palabra esclavo, y se refiere a la capacidad del sistema para seg
 | AC Síncrono | Alta eficiencia, poco mantenimiento | Control más complejo, requiere sincronización |
 | AC Asíncrono | Robustos, excelente resistencia al entorno | Menor eficiencia en pequeñas aplicaciones |
 
-## Modelado de Motores
-- Presentación de ecuaciones matemáticas para modelar motores DC.
-- Implementación de modelos en MATLAB/Simscape.
+## Modelado de Motor DC
+💡**Ejemplo de modelo de motor DC:**
+
+![Figura de modelo motor()
+
+Figura 1. Figura de prueba
+
 
 ## Sensores en Servomecanismos
 ### Encoders
