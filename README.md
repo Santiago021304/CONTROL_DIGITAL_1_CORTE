@@ -30,9 +30,9 @@ Proviene de la palabra esclavo, y se refiere a la capacidad del sistema para seg
 ## Modelado de Motor DC
 💡**Ejemplo de modelo de motor DC:**
 
-![Figura de modelo motor()
+![Figura de modelo motor](imagenes/Modelo_motorDC.png)
 
-Figura 1. Figura de prueba
+Figura 1. Modelo motor DC
 
 
 ## Sensores en Servomecanismos
@@ -61,23 +61,30 @@ Los drivers de potencia son circuitos que amplifican señales de control para pr
 - Uso de modulación por ancho de pulso **(PWM)** para variar la velocidad y el torque del motor.
 - Implementación con **L293 y L298**, que son circuitos integrados diseñados para controlar motores de corriente continua y motores paso a paso.
 
-## Simulaciones y Validación
-- Modelado de motores en **Simscape (MATLAB)** para simular su comportamiento bajo diferentes condiciones de carga.
-- Comparación de simulaciones con datos reales obtenidos de motores físicos.
-- Validación mediante pruebas experimentales, considerando parámetros como corriente, velocidad angular y torque.
-- Uso de modelos predictivos para optimizar el desempeño del motor bajo diferentes escenarios de operación.
+## Simulacion
+💡**Ejemplo de simulación de motor DC:**
+
+![Figura de simulacion motor](imagenes/Simulacion_motorDC.png)
+
+Figura 2. Simulación motor DC
+
 
 ## Control de Torque y Conversión de Energía
-- Métodos de control de torque en motores DC mediante **PWM** y retroalimentación de corriente para garantizar estabilidad y precisión en el control.
-- Implementación de **conversores reductores** para ajustar la tensión aplicada al motor y mejorar la eficiencia energética, minimizando pérdidas en el sistema.
-- Uso de **inversores y modulación SPWM (Sinusoidal Pulse Width Modulation)** para el control de motores de corriente alterna, mejorando la eficiencia y el rendimiento en sistemas de alta potencia.
+- Métodos de control de torque en motores DC mediante PWM y retroalimentación de corriente para garantizar estabilidad y precisión en el control.
+- Implementación de conversores reductores para ajustar la tensión aplicada al motor y mejorar la eficiencia energética, minimizando pérdidas en el sistema.
+- Uso de inversores y modulación SPWM (Sinusoidal Pulse Width Modulation) para el control de motores de corriente alterna, mejorando la eficiencia y el rendimiento en sistemas de alta potencia.
+- 💡**Ejemplo de control de torque de motor DC:**
+
+![Figura de torque motor](imagenes/Control_torqueDC.png)
+
+Figura 3. Control torque motor DC
+
+## Conclusión
+El estudio de los sistemas de control de movimiento es fundamental para la implementación eficiente de motores eléctricos en diversas aplicaciones industriales y tecnológicas. La correcta elección entre motores de corriente continua y corriente alterna, junto con el uso adecuado de sensores y drivers de potencia, permite optimizar el rendimiento y la eficiencia de los sistemas de automatización. 
+
+Las simulaciones y la validación experimental juegan un papel crucial en la optimización de los parámetros de control, asegurando que los modelos teóricos se ajusten a las condiciones reales de operación. Además, el uso de técnicas avanzadas como la modulación PWM y los inversores SPWM facilita la regulación de la velocidad y el torque, mejorando el desempeño general del sistema. 
 
 ## Bibliografía
-- CHAPMAN (2005). "Máquinas eléctricas". McGraw-Hill.
-- LANGSDORF (1968). "Principios de las máquinas de corriente continua". McGraw-Hill.
-- SERRANO IRIBARNEGARAY (1989). "Fundamentos de máquinas eléctricas rotativas". Marcombo.
-- Variadores de Siemens: [Enlace](https://www.swe.siemens.com/spain/web/es/industry/drive_tech/variadores/Pages/Variadores.aspx)
-- Motores de corriente continua: [Enlace](https://www.areatecnologia.com/electricidad/motores-corriente-continua.html)
-
----
-**Autor:** Ing. Jorge Eduardo Cote MSc.
+- [1]CHAPMAN (2005). "Máquinas eléctricas". McGraw-Hill.
+- [2]SERRANO IRIBARNEGARAY (1989). "Fundamentos de máquinas eléctricas rotativas". Marcombo.
+- [3]“AulasVirtualesECCI: Entrar al sitio”, Edu.co. [En línea]. Disponible: https://aulas.ecci.edu.co/course/view.php?id=9304 .
